@@ -10,6 +10,6 @@
 
 - name: java-1.8.0-openjdk8 on ReadHat server
   yum:
-    name: java-1.8.0-openjdk8
-    state: present 
-    when: ansible_os_family=="redHat"
+  name: java-1.8.0-openjdk8
+  state: present 
+  when: ansible_os_family=="redHat"
